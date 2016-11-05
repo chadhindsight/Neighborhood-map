@@ -1,0 +1,110 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+ul {
+    height: 80%;
+    list-style-type: none;
+    overflow: auto;
+}
+
+li {
+    line-height: 50px;
+    height: 50px;
+    padding-left: 10px;
+    vertical-align: middle;
+    background-color: gray;
+}
+
+li:hover {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.searchBox {
+    line-height: 50px;
+    vertical-align: middle;
+    width: 150px;
+    height: 25px;
+}
+
+.hotSpots {
+    color: black;
+    width: 30%;
+    height: 100%;
+    border: red 1px solid;
+    border-top: 10px;
+    background-color: gray;
+}
+
+.googleMap {
+    width: 70%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .hotSpotList {
+        font-size: .75em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .hotSpotList {
+        font-size: .75em;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    h2 {
+        font-size: 1em;
+    }
+
+    ul {
+    height: 75%;
+    list-style-type: none;
+    overflow: auto;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .googleMap {
+        width: 100%;
+        height: 50%;
+    }
+
+    .hotSpotList {
+        font-size: .75em;
+        padding-left: 0;
+    }
+
+    .hotSpots {
+        width: 90%;
+        height: 50%;
+    }
+}
