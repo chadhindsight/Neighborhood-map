@@ -1,6 +1,6 @@
 {
   "vars": {
-    "@gray-base": "#000",
+    "@gray-base": "#000F",
     "@gray-darker": "lighten(@gray-base, 13.5%)",
     "@gray-dark": "lighten(@gray-base, 20%)",
     "@gray": "lighten(@gray-base, 33.5%)",
