@@ -7,7 +7,7 @@ var Model = {
             id: 'livermore-13-cinemas-livermore'
         },
         {
-            name: 'V&E Club',
+            name: 'The V&E Club',
             latLng: {lat: 37.680984, lng: -121.770174},
             id: 'v-and-e-club-livermore'
         },
